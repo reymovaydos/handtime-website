@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+
+        <!-- Start of Navbar section-->
+        <div class="navbar">
+            <div class="navbar-left">
+                <div class="logo">
+                    <h1>handtime</h1>
+                </div>
+            </div>
+            <div class="navbar-center">
+                <ul>
+                    <a class="hideOnMobile" href="./index.html">home</a>
+                    <a class="hideOnMobile" href="./about.html">about</a>
+                    <a class="hideOnMobile" href="./products.html">products</a>
+                    <a class="hideOnMobile" href="./testimonial.html">testimonial</a>
+                    <a class="hideOnMobile" href="./contact.html">contact us</a>
+                    <i class="fa-solid fa-user" id="user" onclick="openPopup()"></i>
+                    <form class="form" action="">
+                        <h1>Login</h1>
+                        <i id="close-popup" class="fa-solid fa-xmark" onclick="closePopup()"></i>
+                        <div class="username">
+                            <label>Username
+                                <br>
+                                <input type="text" placeholder="Type your username" maxlength="40" name="username">
+                            </label>
+                        </div>
+                        <br>
+                        <div class="password">
+                            <label>
+                                Password
+                                <br>
+                                <input type="password" placeholder="Type your password" maxlength="15" name="password">
+                            </label>
+                            <i class="fa-sharp fa-solid fa-eye-slash" id="togglePassword"></i>
+                        </div>
+                        <button type="submit" id="submit-btn">Submit</button>
+                    </form>
+                    <div class="box">
+                        <div class="cart-count">0</div>
+                        <i class="fa-solid fa-cart-shopping" id="cart-icon"></i>
+                    </div>
+                    <div class="cart">
+                        <div class="cart-title">Cart Items</div>
+                        <div class="cart-content">
+                            <!--
+                          <div class="cart-box">
+                            <img src="images/97.jpg" class="cart-img">
+                            <div class="detail-box">
+                              <div class="cart-food-title">Special Dosai</div>
+                              <div class="price-box">
+                                <div class="cart-price">Rs.72</div>
+                                 <div class="cart-amt">Rs.72</div>
+                             </div>
+                              <input type="number" value="1" class="cart-quantity">
+                            </div>
+                            <ion-icon name="trash" class="cart-remove"></ion-icon>
+                          </div>
+                
+                          <div class="cart-box">
+                            <img src="images/97.jpg" class="cart-img">
+                            <div class="detail-box">
+                              <div class="cart-food-title">Special Dosai</div>
+                              <div class="price-box">
+                                <div class="cart-price">Rs.72</div>
+                                 <div class="cart-amt">Rs.72</div>
+                             </div>
+                              <input type="number" value="1" class="cart-quantity">
+                            </div>
+                            <ion-icon name="trash" class="cart-remove"></ion-icon>
+                          </div>
+                        -->
+                        </div>
+
+                        <div class="total">
+                            <div class="total-title">Total</div>
+                            <div class="total-price">Rs.0</div>
+                        </div>
+
+                        <button class="btn-buy">Place Order</button>
+
+                        <i class="fa-solid fa-xmark" id="cart-close"></i>
+
+                    </div>
+                </ul>
+            </div>
+        </div>
+        <!-- End of Navbar section-->
+
+    </header>
+
+    
+
+
+    <!-- Start of About Shop section-->
+
+    <div class="about-shop">
+        <div class="about-shop_content">
+            <div class="about-shop_item-1">
+                <img src="./images/a-2.jpg" alt="">
+            </div>
+            <div class="about-shop_item-2">
+                <img src="./images/a-1.jpg" alt="">
+            </div>
+        </div>
+        <div class="about-shop_right">
+            <h1>About Our Shop</h1>
+            <p>There are many variations of passages of Lorem Ipsum There are many variations of passages of Lorem Ipsum
+            </p>
+            <button>Read More</button>
+        </div>
+    </div>
+
+    <!-- End of About Shop section-->
+
+
+    <!-- Start of Footer section-->
+
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-title">
+                <h2>handtime</h2>
+            </div>
+            <div class="grid">
+                <div class="footer_item">
+                    <h1>About Shop</h1>
+                    <div class="footer-shop_informations">
+                        <img src="./images/location-white.png" alt="">
+                        <h3>Address</h3>
+                    </div>
+                    <div class="footer-shop_informations">
+                        <img src="./images/phone.png" alt="">
+                        <h3>+01 1234567890</h3>
+                    </div>
+                    <div class="footer-shop_informations">
+                        <img src="./images/envelope-white.png" alt="">
+                        <h3>demo@gmail.com</h3>
+                    </div>
+                </div>
+                <div class="footer_item">
+                    <div class="another-information">
+                        <h1>Informations</h1>
+                        <p>ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                    </div>
+                </div>
+                <div class="footer_item">
+                    <h1>Instagram</h1>
+                    <div class="grid-footer-image">
+                        <div class="footer-watch-img">
+                            <img src="./images/w1.png" alt="">
+                        </div>
+                        <div class="footer-watch-img">
+                            <img src="./images/w2.png" alt="">
+                        </div>
+                        <div class="footer-watch-img">
+                            <img src="./images/w3.png" alt="">
+                        </div>
+                        <div class="footer-watch-img">
+                            <img src="./images/w4.png" alt="">
+                        </div>
+                        <div class="footer-watch-img">
+                            <img src="./images/w5.png" alt="">
+                        </div>
+                        <div class="footer-watch-img">
+                            <img src="./images/w6.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_item">
+                    <h1>Newsletter</h1>
+                    <div class="footer-form">
+                        <input type="text" placeholder="Enter your email">
+                        <br>
+                        <button>subscribe</button>
+                    </div>
+                    <div class="social-media">
+                        <img src="./images/fb.png" alt="">
+                        <img src="./images/twitter.png" alt="">
+                        <img src="./images/linkedin.png" alt="">
+                        <img src="./images/youtube.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- End of Footer section-->
+
+    <!-- All rights reserved-->
+
+    <div class="rights-deserved">
+        <p>© 2023 All Rights Reserved By Reymov Aydos</p>
+    </div>
+
+
+    <script src="./js/about.js"></script>
+</body>
+</html>
