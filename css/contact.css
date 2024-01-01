@@ -728,7 +728,17 @@ li {
     padding: 20px;
 }
 
-
+.message-form button{
+    width: 42%;
+    height: 50px;
+    background-color: purple;
+    font-family: var(--Montserrat);
+    color: var(--white);
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
 
 /* End of Contact Us styling */
 
@@ -1231,6 +1241,17 @@ footer{
     #close-menu{
         position: absolute;
         left: 65%;
+    }
+
+    .message-form{
+        padding: 20px;
+    }
+    .message-form input{
+        width: 100%;
+    }
+
+    .message-form textarea{
+        width: 100%;
     }
 }
 

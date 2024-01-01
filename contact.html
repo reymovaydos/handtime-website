@@ -81,7 +81,7 @@
 
     <section class="contact-us-contact-page">
         <div class="contact-container">
-            <div class="message-form">
+            <form action="https://api.web3forms.com/submit" method="POST" class="message-form" onsubmit="sendEmail(); reset(); return false;">
                 <h1>Contact us</h1>
                 <input type="text" placeholder="Your Name">
                 <br>
@@ -90,7 +90,8 @@
                 <input type="email" placeholder="Email">
                 <br>
                 <textarea name="" id="" cols="52" rows="8" placeholder="Message"></textarea>
-            </div>
+                <button type="submit">Send</button>
+            </form>
             <div class="google-map">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2943.24195960543!2d59.61103047597588!3d42.4651423711833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41dd9a475410678d%3A0xb589e26ce7421bcd!2z0JPQvtGB0YPQtNCw0YDRgdGC0LLQtdC90L3Ri9C5INC80YPQt9C10Lkg0LjRgdC60YPRgdGB0YLQsiDQoNC10YHQv9GD0LHQu9C40LrQuCDQmtCw0YDQsNC60LDQu9C_0LDQutGB0YLQsNC9INC40Lwu0Jgu0JIu0KHQsNCy0LjRhtC60L7Qs9C-!5e0!3m2!1sru!2s!4v1703737061563!5m2!1sru!2s"
@@ -181,5 +182,7 @@
     </div>
 
     <script src="./js/contact.js"></script>
+
+    <script src="https://web3forms.com/client/script.js" async defer></script>
 </body>
 </html>

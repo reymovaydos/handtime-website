@@ -532,6 +532,22 @@ li {
     margin-bottom: 15px;
 }
 
+.add-cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 60%;
+    height: 50px;
+    font-family: var(--Montserrat);
+    color: var(--white);
+    background-color: purple;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
 /* End of Top sale watches styling */
 
 /* Start of Contact Us styling */
