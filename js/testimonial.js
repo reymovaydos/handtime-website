@@ -20,12 +20,8 @@ togglePassword.addEventListener("click", function () {
     this.classList.toggle("fa-eye");
 });
 
-let navList = document.querySelector('.nav-list');
-let Burger = document.querySelector('.burger');
-let closeMenu = document.querySelector('#close-menu')
-Burger.addEventListener('click', () => {
-  navList.classList.add("open-active")
-})
-closeMenu.addEventListener('click', () => {
-  navList.classList.remove("open-active")
-})
+let menuToggle = document.querySelector(".menuToggle");
+let navigation = document.querySelector(".navigation");
+menuToggle.onclick = function () {
+  navigation.classList.toggle("active");
+};
