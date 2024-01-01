@@ -437,12 +437,6 @@ li {
 
 /* Start of Top sale watches styling */
 
-.box {
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    position: relative;
-}
 
 #user {
     color: purple;
@@ -450,26 +444,6 @@ li {
     font-size: 1.5rem;
 }
 
-.cart-count {
-    position: absolute;
-    background-color: #ff0000;
-    top: -5px;
-    left: 20px;
-    right: 0;
-    padding: 3px;
-    height: 20px;
-    width: 20px;
-    line-height: 20px;
-    border-radius: 50%;
-    z-index: 99;
-    color: white;
-}
-
-#cart-icon {
-    color: purple;
-    font-size: 1.5rem;
-    cursor: pointer;
-}
 
 .watch-container {
     padding: 4rem;
