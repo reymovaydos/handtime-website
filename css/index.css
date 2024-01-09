@@ -156,116 +156,6 @@ li {
 
 /* End of Banner styling */
 
-/* Start of Login styling */
-
-.form {
-    visibility: hidden;
-    position: absolute;
-    top: -250px;
-    left: 80%;
-    transform: translate(-50%, 50%);
-    padding: 30px;
-    width: 30%;
-    height: 500px;
-    background: linear-gradient(45deg, rgb(87, 87, 212), purple);
-}
-
-.open-modal {
-    visibility: visible;
-}
-
-
-
-.form h1 {
-    color: var(--white);
-    text-align: center;
-    font-family: var(--Montserrat);
-    margin-bottom: 25px;
-}
-
-.form .username input {
-    width: 90%;
-    outline: none;
-    background: none;
-    color: var(--white);
-    border: none;
-    font-family: var(--Poppins);
-    border-bottom: 2px solid var(--gray);
-    font-size: 22px;
-    padding: 15px;
-}
-
-.form .username label {
-    font-family: var(--Poppins);
-    color: var(--white);
-    font-size: 20px;
-}
-
-.form .username input::placeholder {
-    color: var(--white);
-}
-
-.form .password input {
-    width: 90%;
-    outline: none;
-    background: none;
-    color: var(--white);
-    border: none;
-    font-family: var(--Poppins);
-    border-bottom: 2px solid var(--gray);
-    font-size: 22px;
-    padding: 15px;
-}
-
-.form .password label {
-    font-family: var(--Poppins);
-    color: var(--white);
-    font-size: 20px;
-}
-
-.form .password input::placeholder {
-    color: var(--white);
-}
-
-
-
-#togglePassword {
-    position: absolute;
-    left: 78%;
-    top: 53%;
-    font-size: 22px;
-    color: var(--white);
-    cursor: pointer;
-}
-
-
-#submit-btn {
-    width: 200px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    margin-top: 40px;
-    border: none;
-    color: var(--white);
-    font-family: var(--Montserrat);
-    font-size: 22px;
-    cursor: pointer;
-    background: linear-gradient(60deg, rgb(78, 78, 203), purple);
-}
-
-#close-popup {
-    cursor: pointer;
-    font-size: 40px;
-    position: absolute;
-    left: 90%;
-    top: 20px;
-    color: var(--white);
-}
-
-/* End of Login styling */
-
 /* Start of Support styling */
 
 .support {
@@ -887,35 +777,6 @@ footer {
         grid-template-columns: 100%;
     }
 
-    .form {
-        width: 90%;
-        position: absolute;
-        left: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-
-    .form .username input {
-        width: 400px
-    }
-
-    .form .password input {
-        width: 400px;
-    }
-
-    #togglePassword {
-        position: absolute;
-        left: 78%;
-        top: 60%;
-    }
-
-    .shop-content {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-
     .contact-container {
         flex-direction: column;
     }
@@ -1090,48 +951,6 @@ footer {
 
     .watch-container {
         width: 95%;
-    }
-
-    .form {
-        width: 95%;
-    }
-
-    .form .username input {
-        width: 100%;
-        font-size: 18px;
-    }
-
-    .form .username label {
-        font-size: 18px;
-    }
-
-    .form .password input {
-        width: 100%;
-        font-size: 18px;
-    }
-
-    .form .password label {
-        font-size: 18px;
-    }
-
-    #close-popup {
-        position: absolute;
-        left: 82%;
-    }
-
-    #togglePassword {
-        position: absolute;
-        left: 73%;
-        top: 59%;
-        font-size: 18px;
-    }
-
-    .form {
-        display: none;
-    }
-
-    #user {
-        display: none;
     }
 
     .nav {
